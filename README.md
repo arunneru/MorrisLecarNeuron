@@ -1,19 +1,19 @@
 @ArunNeru
 
-Interactive visualization of morris lecar model of 
+# Interactive visualization of morris lecar model of 
 
 To run (linux, commandline): "python morrisInteractive.py" 
 
 There are three subplots and four ways to interact with the figure generated once you run the script
 
-LEFT subplot: plot of voltage and inactivation variable n
+- LEFT subplot: plot of voltage and inactivation variable n
  in the phase space
 	1) Nullcline 
 	2) Phase curve starting from an initial condition
 
-RIGHT subplot: diffrent eigenvalue combinations arising due to different pairs of calcium and potassium conductances
+- RIGHT subplot: diffrent eigenvalue combinations arising due to different pairs of calcium and potassium conductances
 	1) different colors indicate different combination of signs of eigenvalues of the local linearization (Jacobian matrix) of the system at the single euilibrium point 
-BOTTOM subplot: Voltage trace as a function of time. The total duration of the simulation is for 400 ms
+- BOTTOM subplot: Voltage trace as a function of time. The total duration of the simulation is for 400 ms
 
 Here are the HANDLES that are available
 
