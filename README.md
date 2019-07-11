@@ -3,8 +3,8 @@
 # Interactive visualization of morris lecar model of 
 
 To run (on linux, via commandline): 
-'''shell
-python morrisInteractive.py
+'''console
+foo@bar:~ python morrisInteractive.py
 '''
 
 There are three subplots and four ways to interact with the figure generated once you run the script
