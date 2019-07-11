@@ -1,3 +1,9 @@
+## 2013: Written for Fitzhugh-Nagumo neuron by John Murray, for CCN, China
+## 2014: modified for Na persistent with K neuron by Aditya Gilra for CAMP, Bangalore, India.
+##       Nap-K model is similar to Morris-Lecar
+## Somewhere in 2014 after Aditya Introduced the code in CAMP: I (Arun Neru) modified it just to understand the Morris-Lecar Neuron better. 
+##   have added the interactive nullcline and parameterspace plots.   
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, Button, RadioButtons
