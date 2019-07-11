@@ -1,6 +1,6 @@
 @ArunNeru
 
-# Interactive visualization of morris lecar model of 
+# Interactive visualization of morris lecar model
 
 To run (on linux, via commandline): 
 ```console
