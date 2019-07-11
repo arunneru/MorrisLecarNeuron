@@ -3,7 +3,7 @@
 # Interactive visualization of morris lecar model of 
 
 To run (on linux, via commandline): 
-'''bashscript
+'''shell
 python morrisInteractive.py
 '''
 
