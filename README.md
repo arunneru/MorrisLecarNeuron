@@ -7,18 +7,18 @@ To run (on linux, via commandline):
 foo@bar:~ python morrisInteractive.py
 ```
 There are three subplots and four ways to interact with the figure generated once you run the script
-- LEFT subplot: plot of voltage and inactivation variable nin the phase space
+- LEFT subplot: plot of voltage and inactivation variable in the phase space
 	- Nullcline
 	- Phase curve starting from an initial condition
-- RIGHT subplot: diffrent eigenvalue combinations arising due to different pairs of calcium and potassium conductance
-	- different colors indicate different combination of signs of eigenvalues of the local linearization (Jacobian matrix) of the system at the single euilibrium point 
+- RIGHT subplot: calcium and potassium conductance parameter space
+	- different colors indicate different combination of the signs of eigenvalues of the local linearization (Jacobian matrix) of the system at the single equilibrium point 
 - BOTTOM subplot: Voltage trace as a function of time. The total duration of the simulation is for 400 ms
 
 ## Here are the HANDLES that are available
-1. Radiobuttons for different external currents (Iext)
+1. Radio buttons for different external currents (Iext)
 	- Upon chosing any one of them (ranges from 100 to 500 micoampere/centimetersquared), 
 		1. The phase curve and nullcline will be updated on the left plot,
- 		2. The parameter space will be replaced with corrosponding matrix of eigenvalue composition
+ 		2. The parameter space will be replaced with corrosponding matrix of eigenvalue combinations
 		3. The voltage trace will be updated in the lower plot
 	It might take a moment to load. 
 2. Sliders for calcium (gCa) and potassium conductance (gK)
