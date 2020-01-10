@@ -2,10 +2,11 @@
 
 # Interactive visualization of morris lecar model
 
-To run (on linux, via commandline): 
+To run (on a linux machine, via commandline): 
 ```console
 foo@bar:~ python morrisInteractive.py
 ```
+
 There are three subplots and four ways to interact with the figure generated once you run the script
 - LEFT subplot: plot of voltage and inactivation variable in the phase space
 	- Nullcline
