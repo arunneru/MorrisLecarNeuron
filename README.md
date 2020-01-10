@@ -8,7 +8,7 @@ foo@bar:~ python morrisInteractive.py
 ```
 
 There are three subplots and four ways to interact with the figure generated once you run the script
-- LEFT subplot: plot of voltage and inactivation variable in the phase space
+- LEFT subplot: 
 	- Nullcline
 	- Phase curve starting from an initial condition
 - RIGHT subplot: calcium and potassium conductance parameter space
